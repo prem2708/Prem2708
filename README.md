@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio-byprem.up.railway.app/" target="_blank">
+  <a href="https://portfoliobyprem.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-Visit-blueviolet?style=for-the-badge&logo=vercel" />
   </a>
   <a href="mailto:preminnovator2708@gmail.com">
@@ -27,7 +27,7 @@
 - 🔭 **Current Focus:** Full Stack Projects & Cloud Deployments.
 - 🌱 **Growth Mindset:** Exploring new tech every day.
 - 📬 **Let's Connect:** [preminnovator2708@gmail.com](mailto:preminnovator2708@gmail.com)
-- 🌐 **Portfolio:** [portfolio-byprem.up.railway.app](https://portfolio-byprem.up.railway.app/)
+- 🌐 **Portfolio:** [portfolio-byprem.up.railway.app](https://portfoliobyprem.netlify.app/)
 
 ---
 
@@ -65,7 +65,7 @@
 ## 🤝 Let's Collaborate!
 
 <p align="center">
-  <a href="https://portfolio-byprem.up.railway.app/" target="_blank">
+  <a href="https://portfoliobyprem.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-Visit-blueviolet?style=for-the-badge&logo=vercel" />
   </a>
   <a href="mailto:preminnovator2708@gmail.com">
