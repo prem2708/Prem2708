@@ -27,7 +27,7 @@
 - 🔭 **Current Focus:** Full Stack Projects & Cloud Deployments.
 - 🌱 **Growth Mindset:** Exploring new tech every day.
 - 📬 **Let's Connect:** [preminnovator2708@gmail.com](mailto:preminnovator2708@gmail.com)
-- 🌐 **Portfolio:** [portfolio-byprem.up.railway.app](https://portfoliobyprem.netlify.app/)
+- 🌐 **Portfolio:** [portfoliobyprem.netlify.app](https://portfoliobyprem.netlify.app/)
 
 ---
 
