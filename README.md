@@ -28,6 +28,9 @@
 - 🌱 **Growth Mindset:** Exploring new tech every day.
 - 📬 **Let's Connect:** [preminnovator2708@gmail.com](mailto:preminnovator2708@gmail.com)
 - 🌐 **Portfolio:** [portfoliobyprem.netlify.app](https://portfoliobyprem.netlify.app/)
+- 🌐 **Linktree:** [linktr.ee/premkumar2708](https://linktr.ee/premkumar2708)
+
+---
 
 ---
 
