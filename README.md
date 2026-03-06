@@ -1,129 +1,158 @@
-<svg width="900" height="280" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg" width="860" height="200">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d0d1a"/>
-      <stop offset="50%" style="stop-color:#0a1628"/>
-      <stop offset="100%" style="stop-color:#0d0d1a"/>
+    <style>
+      .bg { fill: #010409; }
+      .grid { stroke: #00ffe0; stroke-width: 0.4; opacity: 0.08; }
+
+      /* Floating particles */
+      .p { fill: #00ffe0; }
+      .p1 { animation: rise1 6s ease-in infinite; }
+      .p2 { animation: rise2 8s ease-in infinite 1s; }
+      .p3 { animation: rise3 7s ease-in infinite 2s; }
+      .p4 { animation: rise4 9s ease-in infinite 0.5s; }
+      .p5 { animation: rise5 6.5s ease-in infinite 3s; }
+      .p6 { animation: rise6 7.5s ease-in infinite 1.5s; }
+
+      @keyframes rise1 { 0%{transform:translate(120px,180px);opacity:.8} 100%{transform:translate(110px,10px);opacity:0} }
+      @keyframes rise2 { 0%{transform:translate(300px,190px);opacity:.6} 100%{transform:translate(310px,5px);opacity:0} }
+      @keyframes rise3 { 0%{transform:translate(500px,185px);opacity:.7} 100%{transform:translate(495px,8px);opacity:0} }
+      @keyframes rise4 { 0%{transform:translate(680px,180px);opacity:.8} 100%{transform:translate(690px,12px);opacity:0} }
+      @keyframes rise5 { 0%{transform:translate(200px,190px);opacity:.5} 100%{transform:translate(195px,6px);opacity:0} }
+      @keyframes rise6 { 0%{transform:translate(760px,185px);opacity:.7} 100%{transform:translate(768px,9px);opacity:0} }
+
+      /* Scanning line */
+      .scan { animation: scanline 3.5s linear infinite; opacity: 0.15; }
+      @keyframes scanline {
+        0%  { transform: translateY(0px); opacity: 0; }
+        10% { opacity: 0.15; }
+        90% { opacity: 0.15; }
+        100%{ transform: translateY(200px); opacity: 0; }
+      }
+
+      /* Name text */
+      .name {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-size: 58px;
+        font-weight: 900;
+        fill: url(#nameGrad);
+        filter: url(#glow);
+        animation: fadeUp 1s ease both;
+      }
+      @keyframes fadeUp {
+        from { opacity:0; transform: translateY(20px); }
+        to   { opacity:1; transform: translateY(0); }
+      }
+
+      /* Subtitle */
+      .sub {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #94a3b8;
+        letter-spacing: 3px;
+        animation: fadeUp 1s 0.4s ease both;
+        opacity: 0;
+        animation-fill-mode: forwards;
+      }
+
+      /* Tag line */
+      .tag {
+        font-family: 'Courier New', monospace;
+        font-size: 12px;
+        fill: #00ffe0;
+        letter-spacing: 2px;
+        animation: fadeUp 1s 0.8s ease both;
+        opacity: 0;
+        animation-fill-mode: forwards;
+      }
+
+      /* Underline */
+      .uline {
+        stroke: url(#lineGrad);
+        stroke-width: 1.5;
+        animation: expandLine 0.8s 0.3s ease both;
+        opacity: 0;
+        animation-fill-mode: forwards;
+      }
+      @keyframes expandLine {
+        from { stroke-dasharray: 0 600; opacity: 0; }
+        to   { stroke-dasharray: 600 0; opacity: 1; }
+      }
+
+      /* Corner brackets */
+      .corner { stroke: #00ffe0; stroke-width: 1.5; fill: none; opacity: 0.5; }
+
+      /* Gradient pulse on name */
+      .nameGradStop1 { animation: colorCycle1 4s ease infinite; }
+      .nameGradStop2 { animation: colorCycle2 4s ease infinite; }
+      @keyframes colorCycle1 {
+        0%,100% { stop-color: #00ffe0; }
+        50%      { stop-color: #818cf8; }
+      }
+      @keyframes colorCycle2 {
+        0%,100% { stop-color: #818cf8; }
+        50%      { stop-color: #f472b6; }
+      }
+    </style>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" class="nameGradStop1"/>
+      <stop offset="100%" class="nameGradStop2"/>
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#38bdf8">
-        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#f472b6;#38bdf8" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" style="stop-color:#818cf8">
-        <animate attributeName="stop-color" values="#818cf8;#f472b6;#38bdf8;#818cf8" dur="4s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
+
     <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:transparent"/>
-      <stop offset="50%" style="stop-color:#38bdf8"/>
-      <stop offset="100%" style="stop-color:transparent"/>
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#00ffe0"/>
+      <stop offset="100%" stop-color="transparent"/>
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="textGlow">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="900" height="280" fill="url(#bg)"/>
+  <rect width="860" height="200" class="bg" rx="12"/>
 
-  <!-- Animated grid lines -->
-  <g opacity="0.07">
-    <line x1="0" y1="56" x2="900" y2="56" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="0" y1="112" x2="900" y2="112" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="0" y1="168" x2="900" y2="168" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="0" y1="224" x2="900" y2="224" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="112" y1="0" x2="112" y2="280" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="225" y1="0" x2="225" y2="280" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="337" y1="0" x2="337" y2="280" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="450" y1="0" x2="450" y2="280" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="562" y1="0" x2="562" y2="280" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="675" y1="0" x2="675" y2="280" stroke="#38bdf8" stroke-width="0.5"/>
-    <line x1="787" y1="0" x2="787" y2="280" stroke="#38bdf8" stroke-width="0.5"/>
-  </g>
+  <!-- Grid -->
+  <line x1="0" y1="40"  x2="860" y2="40"  class="grid"/>
+  <line x1="0" y1="80"  x2="860" y2="80"  class="grid"/>
+  <line x1="0" y1="120" x2="860" y2="120" class="grid"/>
+  <line x1="0" y1="160" x2="860" y2="160" class="grid"/>
+  <line x1="100" y1="0" x2="100" y2="200" class="grid"/>
+  <line x1="200" y1="0" x2="200" y2="200" class="grid"/>
+  <line x1="300" y1="0" x2="300" y2="200" class="grid"/>
+  <line x1="430" y1="0" x2="430" y2="200" class="grid"/>
+  <line x1="560" y1="0" x2="560" y2="200" class="grid"/>
+  <line x1="660" y1="0" x2="660" y2="200" class="grid"/>
+  <line x1="760" y1="0" x2="760" y2="200" class="grid"/>
 
-  <!-- Floating orbs -->
-  <circle cx="80" cy="60" r="60" fill="#38bdf8" opacity="0.04">
-    <animate attributeName="cy" values="60;90;60" dur="7s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.04;0.08;0.04" dur="7s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="820" cy="200" r="80" fill="#818cf8" opacity="0.05">
-    <animate attributeName="cy" values="200;170;200" dur="9s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.05;0.09;0.05" dur="9s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="30" r="50" fill="#f472b6" opacity="0.03">
-    <animate attributeName="r" values="50;70;50" dur="6s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Scanning line -->
+  <rect x="0" y="0" width="860" height="2" fill="#00ffe0" class="scan"/>
 
-  <!-- Animated particles -->
-  <circle cx="150" cy="220" r="2" fill="#38bdf8" opacity="0.6">
-    <animate attributeName="cy" values="220;40;220" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0;0.6" dur="5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="300" cy="180" r="1.5" fill="#818cf8" opacity="0.5">
-    <animate attributeName="cy" values="180;20;180" dur="6.5s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="6.5s" repeatCount="indefinite" begin="1s"/>
-  </circle>
-  <circle cx="500" cy="240" r="2" fill="#f472b6" opacity="0.5">
-    <animate attributeName="cy" values="240;30;240" dur="7s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="7s" repeatCount="indefinite" begin="2s"/>
-  </circle>
-  <circle cx="650" cy="200" r="1.5" fill="#38bdf8" opacity="0.6">
-    <animate attributeName="cy" values="200;50;200" dur="5.5s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="opacity" values="0.6;0;0.6" dur="5.5s" repeatCount="indefinite" begin="0.5s"/>
-  </circle>
-  <circle cx="780" cy="160" r="2" fill="#818cf8" opacity="0.5">
-    <animate attributeName="cy" values="160;10;160" dur="8s" repeatCount="indefinite" begin="3s"/>
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="8s" repeatCount="indefinite" begin="3s"/>
-  </circle>
-  <circle cx="60" cy="140" r="1.5" fill="#f472b6" opacity="0.4">
-    <animate attributeName="cy" values="140;10;140" dur="6s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="opacity" values="0.4;0;0.4" dur="6s" repeatCount="indefinite" begin="1.5s"/>
-  </circle>
-  <circle cx="840" cy="100" r="2" fill="#38bdf8" opacity="0.5">
-    <animate attributeName="cy" values="100;260;100" dur="9s" repeatCount="indefinite" begin="4s"/>
-    <animate attributeName="opacity" values="0.5;0;0.5" dur="9s" repeatCount="indefinite" begin="4s"/>
-  </circle>
+  <!-- Particles -->
+  <circle r="2.5" class="p p1" cx="0" cy="0"/>
+  <circle r="2"   class="p p2" cx="0" cy="0"/>
+  <circle r="2.5" class="p p3" cx="0" cy="0" fill="#818cf8"/>
+  <circle r="2"   class="p p4" cx="0" cy="0" fill="#f472b6"/>
+  <circle r="1.5" class="p p5" cx="0" cy="0"/>
+  <circle r="2"   class="p p6" cx="0" cy="0" fill="#818cf8"/>
 
-  <!-- Main name text with gradient + glow -->
-  <text x="450" y="125" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="68" font-weight="900" fill="url(#textGrad)" filter="url(#textGlow)" letter-spacing="2">
-    Prem Kumar
-    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
-  </text>
+  <!-- Corner brackets -->
+  <polyline points="18,18 18,42 42,42" class="corner"/>
+  <polyline points="842,18 842,42 818,42" class="corner"/>
+  <polyline points="18,182 18,158 42,158" class="corner"/>
+  <polyline points="842,182 842,158 818,158" class="corner"/>
+
+  <!-- Name -->
+  <text x="430" y="100" text-anchor="middle" class="name">Prem Kumar</text>
+
+  <!-- Underline -->
+  <line x1="130" y1="116" x2="730" y2="116" class="uline" stroke-dasharray="0 600"/>
 
   <!-- Subtitle -->
-  <text x="450" y="168" text-anchor="middle" font-family="'Courier New', monospace" font-size="17" fill="#94a3b8" letter-spacing="4">
-    FULL STACK DEV  ·  AI ENGINEER  ·  OPEN SOURCE
-    <animate attributeName="opacity" values="0;0;1" dur="1.8s" fill="freeze"/>
-  </text>
+  <text x="430" y="142" text-anchor="middle" class="sub">FULL STACK DEV · AI ENGINEER · OPEN SOURCE</text>
 
-  <!-- Animated underline -->
-  <line x1="150" y1="185" x2="750" y2="185" stroke="url(#lineGrad)" stroke-width="1.5">
-    <animate attributeName="x1" values="450;150;150" dur="1.2s" fill="freeze"/>
-    <animate attributeName="x2" values="450;750;750" dur="1.2s" fill="freeze"/>
-  </line>
-
-  <!-- Bottom tagline -->
-  <text x="450" y="228" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#38bdf8" letter-spacing="2" opacity="0.8">
-    ⚡ Building the future, one commit at a time ⚡
-    <animate attributeName="opacity" values="0;0;0;0.8" dur="2.5s" fill="freeze"/>
-  </text>
-
-  <!-- Corner decorations -->
-  <g fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.4">
-    <polyline points="20,20 20,50 50,50"/>
-    <polyline points="880,20 880,50 850,50"/>
-    <polyline points="20,260 20,230 50,230"/>
-    <polyline points="880,260 880,230 850,230"/>
-  </g>
-
-  <!-- Scanning line animation -->
-  <rect x="0" y="0" width="900" height="2" fill="url(#lineGrad)" opacity="0.3">
-    <animate attributeName="y" values="0;278;0" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Tag -->
+  <text x="430" y="168" text-anchor="middle" class="tag">⚡ Building the future, one commit at a time ⚡</text>
 </svg>
