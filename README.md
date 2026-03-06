@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=170&section=header&text=Hi%20I'm%20Prem%20Kumar%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=55&desc=Full%20Stack%20Dev%20•%20AI%20Builder%20•%20Open%20Source%20Lover&descSize=16&descAlignY=75&descColor=a78bfa" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=170&section=header&text=Hi%20I'm%20Prem%20Kumar%20👋&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=55&desc=Full%20Stack%20Dev%20•%20AI%20Builder%20•%20Open%20Source%20Lover&descSize=16&descAlignY=75&descColor=a78bfa" width="100%"/>
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-a78bfa?style=for-the-badge&labelColor=0f0c29)](https://portfoliobyprem.netlify.app/)
 [![Gmail](https://img.shields.io/badge/📩%20Gmail-f472b6?style=for-the-badge&labelColor=0f0c29)](mailto:preminnovator2708@gmail.com)
 [![Linktree](https://img.shields.io/badge/🔗%20Linktree-34d399?style=for-the-badge&labelColor=0f0c29)](https://linktr.ee/premkumar2708)
-[![GitHub](https://img.shields.io/badge/🐙%20GitHub-60a5fa?style=for-the-badge&labelColor=0f0c29)](https://github.com/prem2708)
+[![GitHub](https://img.shields.io/badge/🐙%20Follow-60a5fa?style=for-the-badge&labelColor=0f0c29)](https://github.com/prem2708)
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=prem2708&label=Profile+Views&color=a78bfa&style=flat-square)
-&nbsp;
+![Views](https://komarev.com/ghpvc/?username=prem2708&label=Profile+Views&color=a78bfa&style=flat-square)
+&nbsp;&nbsp;
 ![Followers](https://img.shields.io/github/followers/prem2708?label=Followers&color=a78bfa&style=flat-square)
 
 </div>
@@ -45,17 +45,67 @@ const prem = {
 
 <div align="center">
 
-**Languages & Frontend**
+**── Languages ──**
 
-[![Skills](https://skillicons.dev/icons?i=js,ts,py,java,cpp,react,nextjs,html,css,tailwind&theme=dark)](https://skillicons.dev)
+[![JS](https://skillicons.dev/icons?i=js&theme=dark)](https://skillicons.dev)
+[![TS](https://skillicons.dev/icons?i=ts&theme=dark)](https://skillicons.dev)
+[![Python](https://skillicons.dev/icons?i=py&theme=dark)](https://skillicons.dev)
+[![Java](https://skillicons.dev/icons?i=java&theme=dark)](https://skillicons.dev)
+[![C++](https://skillicons.dev/icons?i=cpp&theme=dark)](https://skillicons.dev)
 
-**Backend & Databases**
+**── Frontend ──**
 
-[![Skills](https://skillicons.dev/icons?i=nodejs,express,django,fastapi,mongodb,mysql,postgres,firebase&theme=dark)](https://skillicons.dev)
+[![React](https://skillicons.dev/icons?i=react&theme=dark)](https://skillicons.dev)
+[![Next](https://skillicons.dev/icons?i=nextjs&theme=dark)](https://skillicons.dev)
+[![HTML](https://skillicons.dev/icons?i=html&theme=dark)](https://skillicons.dev)
+[![CSS](https://skillicons.dev/icons?i=css&theme=dark)](https://skillicons.dev)
+[![Tailwind](https://skillicons.dev/icons?i=tailwind&theme=dark)](https://skillicons.dev)
 
-**DevOps & Tools**
+**── Backend ──**
 
-[![Skills](https://skillicons.dev/icons?i=docker,git,github,vercel,netlify,vscode,postman,linux&theme=dark)](https://skillicons.dev)
+[![Node](https://skillicons.dev/icons?i=nodejs&theme=dark)](https://skillicons.dev)
+[![Express](https://skillicons.dev/icons?i=express&theme=dark)](https://skillicons.dev)
+[![Django](https://skillicons.dev/icons?i=django&theme=dark)](https://skillicons.dev)
+[![FastAPI](https://skillicons.dev/icons?i=fastapi&theme=dark)](https://skillicons.dev)
+
+**── Databases ──**
+
+[![MongoDB](https://skillicons.dev/icons?i=mongodb&theme=dark)](https://skillicons.dev)
+[![MySQL](https://skillicons.dev/icons?i=mysql&theme=dark)](https://skillicons.dev)
+[![PostgreSQL](https://skillicons.dev/icons?i=postgres&theme=dark)](https://skillicons.dev)
+[![Firebase](https://skillicons.dev/icons?i=firebase&theme=dark)](https://skillicons.dev)
+
+**── DevOps & Tools ──**
+
+[![Docker](https://skillicons.dev/icons?i=docker&theme=dark)](https://skillicons.dev)
+[![Git](https://skillicons.dev/icons?i=git&theme=dark)](https://skillicons.dev)
+[![GitHub](https://skillicons.dev/icons?i=github&theme=dark)](https://skillicons.dev)
+[![Vercel](https://skillicons.dev/icons?i=vercel&theme=dark)](https://skillicons.dev)
+[![Netlify](https://skillicons.dev/icons?i=netlify&theme=dark)](https://skillicons.dev)
+[![VSCode](https://skillicons.dev/icons?i=vscode&theme=dark)](https://skillicons.dev)
+[![Postman](https://skillicons.dev/icons?i=postman&theme=dark)](https://skillicons.dev)
+[![Linux](https://skillicons.dev/icons?i=linux&theme=dark)](https://skillicons.dev)
+
+</div>
+
+---
+
+### 📊 Stats At A Glance
+
+<div align="center">
+
+| 🏆 Repos | ⭐ Projects | 🌍 Location | 📬 Contact |
+|:---:|:---:|:---:|:---:|
+| ![Repos](https://img.shields.io/badge/10%2B-Repositories-a78bfa?style=flat-square&logo=github&logoColor=white&labelColor=0f0c29) | ![Projects](https://img.shields.io/badge/6-AI%20Projects-f472b6?style=flat-square&logo=openai&logoColor=white&labelColor=0f0c29) | ![Location](https://img.shields.io/badge/India-🇮🇳-34d399?style=flat-square&labelColor=0f0c29) | ![Email](https://img.shields.io/badge/Open-To%20Collab-60a5fa?style=flat-square&logo=handshake&logoColor=white&labelColor=0f0c29) |
+
+<br/>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-Expert-f7df1e?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-Advanced-3670a0?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-Advanced-61dafb?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-Advanced-6da55f?style=flat-square&logo=node.js&logoColor=white)
+![AI](https://img.shields.io/badge/AI%20APIs-Proficient-a78bfa?style=flat-square&logo=openai&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Intermediate-0db7ed?style=flat-square&logo=docker&logoColor=white)
 
 </div>
 
@@ -65,73 +115,75 @@ const prem = {
 
 #### 🤖 AI-Powered
 
-| Project | Description |
-|---------|-------------|
-| [📚 AI Study Buddy](https://github.com/prem2708/AI-Powered-Study-Buddy) | Personal AI tutor — study smarter, not harder |
-| [📝 Lecture Notes Generator](https://github.com/prem2708/Lecture_notes_generator) | Auto-generate clean notes from any lecture |
-| [🖼️ AI Image Generator](https://github.com/prem2708/Ai_image_generator_tool) | Create stunning images from text prompts |
-| [🩺 AI Doctor](https://github.com/prem2708/AI_DOCTOR) | Smart health assistant — symptom analyzer |
-| [📄 AI Resume Builder](https://github.com/prem2708/AI-resume-builder) | ATS-ready resume generator powered by AI |
-| [🤖 Musebot by VoxNova](https://github.com/prem2708/aibot-musebot-byvoxnova) | Conversational AI + music discovery bot |
+| 🏷️ | Project | What it does |
+|:---:|---------|-------------|
+| 📚 | [**AI Study Buddy**](https://github.com/prem2708/AI-Powered-Study-Buddy) | Personal AI tutor — study smarter, not harder |
+| 📝 | [**Lecture Notes Generator**](https://github.com/prem2708/Lecture_notes_generator) | Auto-generate clean notes from any lecture |
+| 🖼️ | [**AI Image Generator**](https://github.com/prem2708/Ai_image_generator_tool) | Create stunning images from text prompts |
+| 🩺 | [**AI Doctor**](https://github.com/prem2708/AI_DOCTOR) | Smart health assistant — symptom analyzer |
+| 📄 | [**AI Resume Builder**](https://github.com/prem2708/AI-resume-builder) | ATS-ready resume generator powered by AI |
+| 🤖 | [**Musebot by VoxNova**](https://github.com/prem2708/aibot-musebot-byvoxnova) | Conversational AI + music discovery bot |
 
 #### 🌐 Web & Design
 
-| Project | Description |
-|---------|-------------|
-| [⚡ Hackathon Website](https://github.com/prem2708/Hackthon_website) | Event platform — registration, schedule & teams |
-| [🧘 Yoga & Asana](https://github.com/prem2708/yoga_and_asan_website-) | Wellness platform for yoga & postures |
-| [💼 Portfolio v2](https://github.com/prem2708/prem_new_portfolio) | Latest portfolio — redesigned from scratch |
-| [🌐 Portfolio v1](https://github.com/prem2708/Portfolio) | The OG — where it all began |
+| 🏷️ | Project | What it does |
+|:---:|---------|-------------|
+| ⚡ | [**Hackathon Website**](https://github.com/prem2708/Hackthon_website) | Event platform — registration, schedule & teams |
+| 🧘 | [**Yoga & Asana**](https://github.com/prem2708/yoga_and_asan_website-) | Wellness platform for yoga & postures |
+| 💼 | [**Portfolio v2**](https://github.com/prem2708/prem_new_portfolio) | Latest portfolio — redesigned from scratch |
+| 🌐 | [**Portfolio v1**](https://github.com/prem2708/Portfolio) | The OG — where it all began |
 
 ---
 
-### 📊 GitHub Stats
+### 🎯 Currently Working On
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=prem2708&show_icons=true&theme=synthwave&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=1800"/>
-&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prem2708&layout=compact&theme=synthwave&hide_border=true&langs_count=8&cache_seconds=1800"/>
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=prem2708&theme=synthwave&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="60%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=prem2708&theme=dracula&no-frame=true&no-bg=true&margin-w=6&column=6"/>
-
-</div>
+```
+🔨  Building AI-powered full stack apps
+☁️  Learning cloud architecture & DevOps
+🌱  Contributing to open source projects
+📖  Exploring LangChain & Vector databases
+```
 
 ---
 
-### 📌 Pinned Repos
+### 💬 Fun Facts
 
-<div align="center">
-
-[![AI Study Buddy](https://github-readme-stats.vercel.app/api/pin/?username=prem2708&repo=AI-Powered-Study-Buddy&theme=synthwave&hide_border=true)](https://github.com/prem2708/AI-Powered-Study-Buddy)
-[![Lecture Notes](https://github-readme-stats.vercel.app/api/pin/?username=prem2708&repo=Lecture_notes_generator&theme=synthwave&hide_border=true)](https://github.com/prem2708/Lecture_notes_generator)
-
-[![AI Resume](https://github-readme-stats.vercel.app/api/pin/?username=prem2708&repo=AI-resume-builder&theme=synthwave&hide_border=true)](https://github.com/prem2708/AI-resume-builder)
-[![AI Doctor](https://github-readme-stats.vercel.app/api/pin/?username=prem2708&repo=AI_DOCTOR&theme=synthwave&hide_border=true)](https://github.com/prem2708/AI_DOCTOR)
-
-</div>
+```
+⚡  I turn ☕ coffee into 💻 code
+🐛  My code works. I don't know why. I'm scared to touch it.
+🌙  Best code is written at 2AM
+🔁  git commit -m "fixed" × 100 = a working project
+```
 
 ---
 
 <div align="center">
 
-### 🤝 Let's Connect & Build!
-
-[![Portfolio](https://img.shields.io/badge/🌐%20Visit%20Portfolio-a78bfa?style=for-the-badge)](https://portfoliobyprem.netlify.app/)
-[![Email](https://img.shields.io/badge/📧%20Send%20Email-f472b6?style=for-the-badge)](mailto:preminnovator2708@gmail.com)
-[![Linktree](https://img.shields.io/badge/🔗%20All%20Links-34d399?style=for-the-badge)](https://linktr.ee/premkumar2708)
+### 🤝 Let's Build Something Amazing!
 
 <br/>
 
-> *"Code is like humor. When you have to explain it, it's bad."* — **Cory House**
+[![Portfolio](https://img.shields.io/badge/🌐%20Visit%20Portfolio-a78bfa?style=for-the-badge&labelColor=0f0c29)](https://portfoliobyprem.netlify.app/)
+&nbsp;
+[![Email](https://img.shields.io/badge/📧%20Email%20Me-f472b6?style=for-the-badge&labelColor=0f0c29)](mailto:preminnovator2708@gmail.com)
+&nbsp;
+[![Linktree](https://img.shields.io/badge/🔗%20All%20Links-34d399?style=for-the-badge&labelColor=0f0c29)](https://linktr.ee/premkumar2708)
 
-⭐ **If you like my work, drop a star on any repo!** ⭐
+<br/>
+
+```
+╔══════════════════════════════════════════════════════╗
+║  "Code is like humor.                                ║
+║   When you have to explain it, it's bad."            ║
+║                              — Cory House  😄         ║
+╚══════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+⭐ **Found my work useful? Drop a star — it truly means a lot!** ⭐
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
 
