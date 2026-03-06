@@ -1,190 +1,140 @@
-<div align="center">
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fadeSlideUp {
+        0%   { opacity:0; transform:translateY(22px); }
+        100% { opacity:1; transform:translateY(0); }
+      }
+      @keyframes colorShift {
+        0%,100% { fill:#a78bfa; }
+        25%      { fill:#60a5fa; }
+        50%      { fill:#34d399; }
+        75%      { fill:#f472b6; }
+      }
+      @keyframes pulse {
+        0%,100% { opacity:1; transform:scale(1); }
+        50%      { opacity:0.6; transform:scale(1.15); }
+      }
+      @keyframes blink {
+        0%,49% { opacity:1; }
+        50%,100%{ opacity:0; }
+      }
+      @keyframes rise {
+        0%   { transform:translate(var(--x),190px); opacity:0.9; }
+        100% { transform:translate(var(--x),-10px);  opacity:0; }
+      }
+      @keyframes scanDown {
+        0%   { transform:translateY(-4px); opacity:0; }
+        8%   { opacity:0.18; }
+        92%  { opacity:0.18; }
+        100% { transform:translateY(204px); opacity:0; }
+      }
+      @keyframes drawLine {
+        from { stroke-dashoffset: 800; }
+        to   { stroke-dashoffset: 0; }
+      }
+      @keyframes glowPulse {
+        0%,100% { filter: drop-shadow(0 0 6px #a78bfa); }
+        50%      { filter: drop-shadow(0 0 18px #a78bfa) drop-shadow(0 0 30px #60a5fa); }
+      }
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=170&section=header&text=Hi%20I'm%20Prem%20Kumar%20👋&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=55&desc=Full%20Stack%20Dev%20•%20AI%20Builder%20•%20Open%20Source%20Lover&descSize=16&descAlignY=75&descColor=a78bfa" width="100%"/>
+      .bg  { fill: #0d1117; }
+      .grid{ stroke:#a78bfa; stroke-width:0.3; opacity:0.07; }
 
-<br/>
+      .name {
+        font: 900 60px/1 'Segoe UI', Arial, sans-serif;
+        fill: #a78bfa;
+        animation: fadeSlideUp 0.9s ease both, colorShift 6s ease-in-out 1s infinite, glowPulse 3s ease-in-out infinite;
+      }
+      .sub {
+        font: 600 15px/1 'Courier New', monospace;
+        letter-spacing: 3.5px;
+        fill: #8b949e;
+        animation: fadeSlideUp 0.9s 0.5s ease both;
+        opacity:0; animation-fill-mode:forwards;
+      }
+      .tag {
+        font: 400 12px/1 'Courier New', monospace;
+        letter-spacing: 2px;
+        fill: #60a5fa;
+        animation: fadeSlideUp 0.9s 0.9s ease both;
+        opacity:0; animation-fill-mode:forwards;
+      }
+      .cursor {
+        animation: blink 1s 1.3s step-end infinite;
+        fill:#a78bfa; opacity:0; animation-fill-mode:forwards;
+      }
+      .divider {
+        stroke:#a78bfa; stroke-width:1.5; fill:none; opacity:0.5;
+        stroke-dasharray:800; stroke-dashoffset:800;
+        animation: drawLine 1s 0.4s ease forwards;
+      }
+      .corner { stroke:#a78bfa; stroke-width:1.5; fill:none; opacity:0.4; }
+      .dot { animation: pulse 2s ease-in-out infinite; fill:#34d399; }
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-a78bfa?style=for-the-badge&labelColor=0f0c29)](https://portfoliobyprem.netlify.app/)
-[![Gmail](https://img.shields.io/badge/📩%20Gmail-f472b6?style=for-the-badge&labelColor=0f0c29)](mailto:preminnovator2708@gmail.com)
-[![Linktree](https://img.shields.io/badge/🔗%20Linktree-34d399?style=for-the-badge&labelColor=0f0c29)](https://linktr.ee/premkumar2708)
-[![GitHub](https://img.shields.io/badge/🐙%20Follow-60a5fa?style=for-the-badge&labelColor=0f0c29)](https://github.com/prem2708)
+      .p1{--x:80px;  animation:rise 5s 0.0s ease-in infinite; fill:#a78bfa; opacity:0;}
+      .p2{--x:200px; animation:rise 6s 1.0s ease-in infinite; fill:#60a5fa; opacity:0;}
+      .p3{--x:360px; animation:rise 4.5s 0.5s ease-in infinite; fill:#34d399; opacity:0;}
+      .p4{--x:520px; animation:rise 7s 1.8s ease-in infinite; fill:#f472b6; opacity:0;}
+      .p5{--x:690px; animation:rise 5.5s 0.3s ease-in infinite; fill:#a78bfa; opacity:0;}
+      .p6{--x:810px; animation:rise 6.5s 2.5s ease-in infinite; fill:#60a5fa; opacity:0;}
+      .p7{--x:140px; animation:rise 4s 3.0s ease-in infinite;   fill:#f472b6; opacity:0;}
+      .p8{--x:620px; animation:rise 7.5s 1.2s ease-in infinite; fill:#34d399; opacity:0;}
 
-<br/>
+      .scan { fill:#a78bfa; animation:scanDown 4s 0.5s linear infinite; opacity:0; }
+    </style>
+  </defs>
 
-![Views](https://komarev.com/ghpvc/?username=prem2708&label=Profile+Views&color=a78bfa&style=flat-square)
-&nbsp;&nbsp;
-![Followers](https://img.shields.io/github/followers/prem2708?label=Followers&color=a78bfa&style=flat-square)
+  <!-- BG -->
+  <rect width="900" height="200" class="bg" rx="12"/>
 
-</div>
+  <!-- Grid -->
+  <line x1="0"   y1="50"  x2="900" y2="50"  class="grid"/>
+  <line x1="0"   y1="100" x2="900" y2="100" class="grid"/>
+  <line x1="0"   y1="150" x2="900" y2="150" class="grid"/>
+  <line x1="112" y1="0"   x2="112" y2="200" class="grid"/>
+  <line x1="225" y1="0"   x2="225" y2="200" class="grid"/>
+  <line x1="337" y1="0"   x2="337" y2="200" class="grid"/>
+  <line x1="450" y1="0"   x2="450" y2="200" class="grid"/>
+  <line x1="562" y1="0"   x2="562" y2="200" class="grid"/>
+  <line x1="675" y1="0"   x2="675" y2="200" class="grid"/>
+  <line x1="787" y1="0"   x2="787" y2="200" class="grid"/>
 
----
+  <!-- Scan line -->
+  <rect x="0" y="0" width="900" height="2" class="scan"/>
 
-### 🧑‍💻 About Me
+  <!-- Particles -->
+  <circle r="2.5" class="p1" cx="0" cy="0"/>
+  <circle r="2"   class="p2" cx="0" cy="0"/>
+  <circle r="3"   class="p3" cx="0" cy="0"/>
+  <circle r="2"   class="p4" cx="0" cy="0"/>
+  <circle r="2.5" class="p5" cx="0" cy="0"/>
+  <circle r="2"   class="p6" cx="0" cy="0"/>
+  <circle r="1.5" class="p7" cx="0" cy="0"/>
+  <circle r="2"   class="p8" cx="0" cy="0"/>
 
-```javascript
-const prem = {
-  name     : "Prem Kumar",
-  role     : "Full Stack Developer & AI Engineer",
-  location : "India 🇮🇳",
-  focus    : ["AI Apps", "Web Dev", "Cloud", "Open Source"],
-  email    : "preminnovator2708@gmail.com",
-  website  : "portfoliobyprem.netlify.app",
-  openTo   : "Collaborations & Freelance 🤝",
-  funFact  : "I debug with console.log 😄",
-};
-```
+  <!-- Corner brackets -->
+  <polyline points="16,16 16,42 42,42"     class="corner"/>
+  <polyline points="884,16 884,42 858,42"  class="corner"/>
+  <polyline points="16,184 16,158 42,158"  class="corner"/>
+  <polyline points="884,184 884,158 858,158" class="corner"/>
 
-- 🔭 Currently building **Full Stack & AI-powered** apps
-- 🌱 Exploring **Cloud Architecture & DevOps**
-- 💬 Ask me about **React, Node.js, Python, AI APIs**
-- ⚡ Always shipping something new
+  <!-- Status dot -->
+  <circle cx="840" cy="30" r="5" class="dot"/>
+  <text x="852" y="34" font="10px 'Courier New'" font-size="10" fill="#34d399" font-family="'Courier New',monospace" letter-spacing="1">ONLINE</text>
 
----
+  <!-- Name -->
+  <text x="450" y="98" text-anchor="middle" class="name">Prem Kumar</text>
 
-### 🛠️ Tech Stack
+  <!-- Cursor -->
+  <rect x="680" y="62" width="3" height="46" class="cursor"/>
 
-<div align="center">
+  <!-- Divider -->
+  <line x1="100" y1="116" x2="800" y2="116" class="divider"/>
 
-**── Languages ──**
+  <!-- Subtitle -->
+  <text x="450" y="144" text-anchor="middle" class="sub">FULL STACK DEV  ·  AI ENGINEER  ·  OPEN SOURCE</text>
 
-[![JS](https://skillicons.dev/icons?i=js&theme=dark)](https://skillicons.dev)
-[![TS](https://skillicons.dev/icons?i=ts&theme=dark)](https://skillicons.dev)
-[![Python](https://skillicons.dev/icons?i=py&theme=dark)](https://skillicons.dev)
-[![Java](https://skillicons.dev/icons?i=java&theme=dark)](https://skillicons.dev)
-[![C++](https://skillicons.dev/icons?i=cpp&theme=dark)](https://skillicons.dev)
-
-**── Frontend ──**
-
-[![React](https://skillicons.dev/icons?i=react&theme=dark)](https://skillicons.dev)
-[![Next](https://skillicons.dev/icons?i=nextjs&theme=dark)](https://skillicons.dev)
-[![HTML](https://skillicons.dev/icons?i=html&theme=dark)](https://skillicons.dev)
-[![CSS](https://skillicons.dev/icons?i=css&theme=dark)](https://skillicons.dev)
-[![Tailwind](https://skillicons.dev/icons?i=tailwind&theme=dark)](https://skillicons.dev)
-
-**── Backend ──**
-
-[![Node](https://skillicons.dev/icons?i=nodejs&theme=dark)](https://skillicons.dev)
-[![Express](https://skillicons.dev/icons?i=express&theme=dark)](https://skillicons.dev)
-[![Django](https://skillicons.dev/icons?i=django&theme=dark)](https://skillicons.dev)
-[![FastAPI](https://skillicons.dev/icons?i=fastapi&theme=dark)](https://skillicons.dev)
-
-**── Databases ──**
-
-[![MongoDB](https://skillicons.dev/icons?i=mongodb&theme=dark)](https://skillicons.dev)
-[![MySQL](https://skillicons.dev/icons?i=mysql&theme=dark)](https://skillicons.dev)
-[![PostgreSQL](https://skillicons.dev/icons?i=postgres&theme=dark)](https://skillicons.dev)
-[![Firebase](https://skillicons.dev/icons?i=firebase&theme=dark)](https://skillicons.dev)
-
-**── DevOps & Tools ──**
-
-[![Docker](https://skillicons.dev/icons?i=docker&theme=dark)](https://skillicons.dev)
-[![Git](https://skillicons.dev/icons?i=git&theme=dark)](https://skillicons.dev)
-[![GitHub](https://skillicons.dev/icons?i=github&theme=dark)](https://skillicons.dev)
-[![Vercel](https://skillicons.dev/icons?i=vercel&theme=dark)](https://skillicons.dev)
-[![Netlify](https://skillicons.dev/icons?i=netlify&theme=dark)](https://skillicons.dev)
-[![VSCode](https://skillicons.dev/icons?i=vscode&theme=dark)](https://skillicons.dev)
-[![Postman](https://skillicons.dev/icons?i=postman&theme=dark)](https://skillicons.dev)
-[![Linux](https://skillicons.dev/icons?i=linux&theme=dark)](https://skillicons.dev)
-
-</div>
-
----
-
-### 📊 Stats At A Glance
-
-<div align="center">
-
-| 🏆 Repos | ⭐ Projects | 🌍 Location | 📬 Contact |
-|:---:|:---:|:---:|:---:|
-| ![Repos](https://img.shields.io/badge/10%2B-Repositories-a78bfa?style=flat-square&logo=github&logoColor=white&labelColor=0f0c29) | ![Projects](https://img.shields.io/badge/6-AI%20Projects-f472b6?style=flat-square&logo=openai&logoColor=white&labelColor=0f0c29) | ![Location](https://img.shields.io/badge/India-🇮🇳-34d399?style=flat-square&labelColor=0f0c29) | ![Email](https://img.shields.io/badge/Open-To%20Collab-60a5fa?style=flat-square&logo=handshake&logoColor=white&labelColor=0f0c29) |
-
-<br/>
-
-![JavaScript](https://img.shields.io/badge/JavaScript-Expert-f7df1e?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-Advanced-3670a0?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-Advanced-61dafb?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-Advanced-6da55f?style=flat-square&logo=node.js&logoColor=white)
-![AI](https://img.shields.io/badge/AI%20APIs-Proficient-a78bfa?style=flat-square&logo=openai&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Intermediate-0db7ed?style=flat-square&logo=docker&logoColor=white)
-
-</div>
-
----
-
-### 🚀 Projects
-
-#### 🤖 AI-Powered
-
-| 🏷️ | Project | What it does |
-|:---:|---------|-------------|
-| 📚 | [**AI Study Buddy**](https://github.com/prem2708/AI-Powered-Study-Buddy) | Personal AI tutor — study smarter, not harder |
-| 📝 | [**Lecture Notes Generator**](https://github.com/prem2708/Lecture_notes_generator) | Auto-generate clean notes from any lecture |
-| 🖼️ | [**AI Image Generator**](https://github.com/prem2708/Ai_image_generator_tool) | Create stunning images from text prompts |
-| 🩺 | [**AI Doctor**](https://github.com/prem2708/AI_DOCTOR) | Smart health assistant — symptom analyzer |
-| 📄 | [**AI Resume Builder**](https://github.com/prem2708/AI-resume-builder) | ATS-ready resume generator powered by AI |
-| 🤖 | [**Musebot by VoxNova**](https://github.com/prem2708/aibot-musebot-byvoxnova) | Conversational AI + music discovery bot |
-
-#### 🌐 Web & Design
-
-| 🏷️ | Project | What it does |
-|:---:|---------|-------------|
-| ⚡ | [**Hackathon Website**](https://github.com/prem2708/Hackthon_website) | Event platform — registration, schedule & teams |
-| 🧘 | [**Yoga & Asana**](https://github.com/prem2708/yoga_and_asan_website-) | Wellness platform for yoga & postures |
-| 💼 | [**Portfolio v2**](https://github.com/prem2708/prem_new_portfolio) | Latest portfolio — redesigned from scratch |
-| 🌐 | [**Portfolio v1**](https://github.com/prem2708/Portfolio) | The OG — where it all began |
-
----
-
-### 🎯 Currently Working On
-
-```
-🔨  Building AI-powered full stack apps
-☁️  Learning cloud architecture & DevOps
-🌱  Contributing to open source projects
-📖  Exploring LangChain & Vector databases
-```
-
----
-
-### 💬 Fun Facts
-
-```
-⚡  I turn ☕ coffee into 💻 code
-🐛  My code works. I don't know why. I'm scared to touch it.
-🌙  Best code is written at 2AM
-🔁  git commit -m "fixed" × 100 = a working project
-```
-
----
-
-<div align="center">
-
-### 🤝 Let's Build Something Amazing!
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/🌐%20Visit%20Portfolio-a78bfa?style=for-the-badge&labelColor=0f0c29)](https://portfoliobyprem.netlify.app/)
-&nbsp;
-[![Email](https://img.shields.io/badge/📧%20Email%20Me-f472b6?style=for-the-badge&labelColor=0f0c29)](mailto:preminnovator2708@gmail.com)
-&nbsp;
-[![Linktree](https://img.shields.io/badge/🔗%20All%20Links-34d399?style=for-the-badge&labelColor=0f0c29)](https://linktr.ee/premkumar2708)
-
-<br/>
-
-```
-╔══════════════════════════════════════════════════════╗
-║  "Code is like humor.                                ║
-║   When you have to explain it, it's bad."            ║
-║                              — Cory House  😄         ║
-╚══════════════════════════════════════════════════════╝
-```
-
-<br/>
-
-⭐ **Found my work useful? Drop a star — it truly means a lot!** ⭐
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
-
-</div>
+  <!-- Tag -->
+  <text x="450" y="170" text-anchor="middle" class="tag">⚡ building the future, one commit at a time ⚡</text>
+</svg>
