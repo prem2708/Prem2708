@@ -1,269 +1,173 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f0c29,50:302b63,100:24243e&height=250&section=header&text=Prem%20Kumar&fontSize=70&fontColor=00fff0&fontAlignY=45&desc=⚡%20Full%20Stack%20Dev%20·%20🤖%20AI%20Builder%20·%20🌌%20Open%20Source&descAlignY=65&descColor=bf94ff&animation=fadeIn&stroke=00fff0&strokeWidth=2" width="100%"/>
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=2500&pause=700&color=00FFF0&background=00000000&center=true&vCenter=true&width=700&lines=🚀+Building+the+future%2C+one+commit+at+a+time;🤖+Turning+ideas+into+AI-powered+reality;☁️+Full+Stack+%7C+Cloud+%7C+Automation;🌟+Open+Source+Enthusiast+%26+Lifelong+Learner;💡+Code+·+Create+·+Innovate" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hey%2C%20I'm%20Prem%20Kumar%20%F0%9F%91%8B&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Builder%20%E2%80%A2%20Open%20Source%20Lover&descAlignY=58&descColor=a5b4fc" />
 
 <br/>
 
-[![Status](https://img.shields.io/badge/STATUS-AVAILABLE%20FOR%20COLLAB-00fff0?style=for-the-badge&labelColor=0d1117&logo=statuspage&logoColor=00fff0)](#)
-[![Profile Views](https://komarev.com/ghpvc/?username=prem2708&style=for-the-badge&color=bf94ff&label=VISITORS&labelColor=0d1117)](https://github.com/prem2708)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&width=550&lines=🚀+Full+Stack+Developer+from+India;🤖+Building+AI-Powered+Apps;🌱+Always+Learning+%26+Growing;💡+Turning+Coffee+into+Code;⚡+Open+Source+%7C+Cloud+%7C+Automation" alt="Typing SVG" />
 
-</div>
+<br/><br/>
 
----
-
-<img align="right" src="https://raw.githubusercontent.com/Potential17/Potential17/master/user%20(2).gif" width="340px" />
-
-### 🌌 `whoami`
-
-```bash
-┌──(prem㉿dev)-[~/universe]
-└─$ cat about.txt
-
-  Name    :  Prem Kumar
-  Role    :  Full Stack Developer
-  Base    :  India 🇮🇳
-  Focus   :  Web Dev · AI · Cloud · OSS
-  Status  :  Always Building 🔥
-  Contact :  preminnovator2708@gmail.com
-```
-
-```python
-skills = {
-  "frontend"   : ["React", "JS", "TS", "HTML", "CSS"],
-  "backend"    : ["Node.js", "Express", "Python", "Django"],
-  "devops"     : ["Docker", "Vercel", "Netlify", "Railway"],
-  "languages"  : ["JavaScript", "Python", "Java", "C++"],
-  "currently"  : "Shipping AI-powered apps 🤖"
-}
-```
-
-<br clear="right"/>
-
----
-
-## ⚡ Tech Arsenal
-
-<div align="center">
-
-### 🎨 Frontend
-[![Skills](https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind,nextjs,vite&theme=dark&perline=8)](https://skillicons.dev)
-
-### ⚙️ Backend & Languages
-[![Skills](https://skillicons.dev/icons?i=nodejs,express,python,django,java,cpp,flask,fastapi&theme=dark&perline=8)](https://skillicons.dev)
-
-### 🛠️ DevOps & Tools
-[![Skills](https://skillicons.dev/icons?i=docker,git,github,vercel,netlify,vscode,linux,postman&theme=dark&perline=8)](https://skillicons.dev)
-
-### 🗄️ Databases
-[![Skills](https://skillicons.dev/icons?i=mongodb,mysql,postgresql,firebase,redis,supabase&theme=dark&perline=8)](https://skillicons.dev)
-
-</div>
-
----
-
-## 🚀 Project Universe
-
-<div align="center">
-
-> 🌟 *Click any project to explore the code!*
-
-</div>
-
-<table align="center">
-<tr>
-<td width="50%">
-
-### 📚 [AI-Powered Study Buddy](https://github.com/prem2708/AI-Powered-Study-Buddy)
-> 🧠 Your personal AI tutor — study smarter, not harder
-
-![AI](https://img.shields.io/badge/AI-Powered-00fff0?style=flat-square&logo=openai&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-Intelligent study companion that helps students learn faster, revise smarter and stay on top of academics using the power of AI.
-
-</td>
-<td width="50%">
-
-### 📝 [Lecture Notes Generator](https://github.com/prem2708/Lecture_notes_generator)
-> 🎙️ From lecture to notes in seconds
-
-![AI](https://img.shields.io/badge/AI-Powered-00fff0?style=flat-square&logo=openai&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-Automatically generate clean, structured, readable notes from audio or text lectures using AI — saving hours of manual work.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### ⚡ [Hackathon Website](https://github.com/prem2708/Hackthon_website)
-> 🏆 Built for hackers, by a hacker
-
-![Web](https://img.shields.io/badge/Full-Stack-bf94ff?style=flat-square&logo=vercel&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-Dynamic hackathon event platform with registration, live schedules, team management and leaderboards — shipped at hackathon speed.
-
-</td>
-<td width="50%">
-
-### 🖼️ [AI Image Generator](https://github.com/prem2708/Ai_image_generator_tool)
-> 🎨 Turn words into stunning visuals
-
-![AI](https://img.shields.io/badge/Generative-AI-00fff0?style=flat-square&logo=openai&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-Instantly create unique, high-quality images from text prompts using generative AI. Simple UI, stunning results every time.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🩺 [AI Doctor](https://github.com/prem2708/AI_DOCTOR)
-> 💊 Your pocket health assistant
-
-![AI](https://img.shields.io/badge/Health-AI-00fff0?style=flat-square&logo=openai&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-Smart AI-powered health assistant that analyzes user symptoms and provides preliminary medical guidance and health information.
-
-</td>
-<td width="50%">
-
-### 📄 [AI Resume Builder](https://github.com/prem2708/AI-resume-builder)
-> 💼 Land your dream job with AI
-
-![AI](https://img.shields.io/badge/AI-Powered-00fff0?style=flat-square&logo=openai&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-Effortlessly generate polished, ATS-optimized resumes using AI. Customize, preview and download your perfect CV in minutes.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 🤖 [Musebot by VoxNova](https://github.com/prem2708/aibot-musebot-byvoxnova)
-> 🎵 Chat meets music discovery
-
-![Bot](https://img.shields.io/badge/Chat-Bot-bf94ff?style=flat-square&logo=discord&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-An intelligent bot that blends conversational AI with music discovery — ask it anything, then let it set the vibe.
-
-</td>
-<td width="50%">
-
-### 🧘 [Yoga & Asana](https://github.com/prem2708/yoga_and_asan_website-)
-> 🌿 Wellness meets the web
-
-![Web](https://img.shields.io/badge/Full-Stack-bf94ff?style=flat-square&logo=vercel&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-A beautiful platform to explore yoga postures, asanas, breathing techniques and their health benefits — all in one place.
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 💼 [Portfolio v2](https://github.com/prem2708/prem_new_portfolio)
-> ✨ The glow-up is real
-
-![Web](https://img.shields.io/badge/Portfolio-v2-00fff0?style=flat-square&logo=vercel&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Active-00e676?style=flat-square)
-
-Latest portfolio — rebuilt from scratch with fresh animations, sleek design, and all-new projects on display.
-
-</td>
-<td width="50%">
-
-### 🌐 [Portfolio v1](https://github.com/prem2708/Portfolio)
-> 🏁 Where it all started
-
-![Web](https://img.shields.io/badge/Portfolio-v1-bf94ff?style=flat-square&logo=netlify&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Archived-888888?style=flat-square)
-
-My original portfolio website — the one that started it all. Showcases early projects, skills and my developer journey.
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=prem2708&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00fff0&icon_color=bf94ff&text_color=c9d1d9&ring_color=00fff0&include_all_commits=true&count_private=true" height="180"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prem2708&layout=compact&hide_border=true&bg_color=0d1117&title_color=00fff0&text_color=c9d1d9&langs_count=8" height="180"/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=a78bfa)](https://portfoliobyprem.netlify.app/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:preminnovator2708@gmail.com)
+[![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/premkumar2708)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prem2708)
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=prem2708&hide_border=true&background=0d1117&ring=00fff0&fire=bf94ff&currStreakLabel=00fff0&sideLabels=c9d1d9&dates=888888&stroke=00fff033" width="68%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prem2708&bg_color=0d1117&color=00fff0&line=bf94ff&point=00fff0&area_color=bf94ff&area=true&hide_border=true&custom_title=Prem's%20Contribution%20Graph" width="100%"/>
+![Profile Views](https://komarev.com/ghpvc/?username=prem2708&label=Profile%20Views&color=a78bfa&style=flat-square)
+![Followers](https://img.shields.io/github/followers/prem2708?style=flat-square&color=a78bfa&label=Followers)
 
 </div>
 
 ---
 
-## 🏆 Trophy Cabinet
+## 🧑‍💻 About Me
+
+```yaml
+name:      Prem Kumar
+location:  India 🇮🇳
+role:      Full Stack Developer
+focus:
+  - AI-Powered Applications
+  - Full Stack Web Development
+  - Cloud Deployments & Automation
+interests: [Web Dev, AI, Open Source, Cloud]
+learning:  Something new every single day 🌱
+available: true  # Open for collaborations!
+```
+
+- 🔭 Currently building **Full Stack & AI projects**
+- 🤖 Passionate about **AI, Automation & Developer Tools**
+- 🌱 Exploring **Cloud Deployments & Scalable Architecture**
+- 💬 Ask me about **React, Node.js, Python, AI APIs**
+- 📬 Reach me → **preminnovator2708@gmail.com**
+- ⚡ Fun fact: I debug with `console.log` and I'm proud of it 😄
+
+---
+
+## 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=prem2708&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%"/>
+**Frontend**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Backend**
+
+![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+**Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+**DevOps & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
 ---
 
-## 🌐 Connect With Me
+## 🚀 Projects
 
 <div align="center">
 
-<a href="https://portfoliobyprem.netlify.app/">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-Visit_Now-00fff0?style=for-the-badge&labelColor=0d1117"/>
-</a>
-&nbsp;
-<a href="mailto:preminnovator2708@gmail.com">
-  <img src="https://img.shields.io/badge/📧_Gmail-Write_to_Me-EA4335?style=for-the-badge&labelColor=0d1117&logo=gmail&logoColor=EA4335"/>
-</a>
-&nbsp;
-<a href="https://linktr.ee/premkumar2708">
-  <img src="https://img.shields.io/badge/🔗_Linktree-All_Links-43e660?style=for-the-badge&labelColor=0d1117&logo=linktree&logoColor=43e660"/>
-</a>
-&nbsp;
-<a href="https://github.com/prem2708">
-  <img src="https://img.shields.io/badge/🐙_GitHub-@prem2708-bf94ff?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=bf94ff"/>
-</a>
-
-<br/><br/>
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="80%"/>
-
-<br/><br/>
-
-```
-╔═══════════════════════════════════════════════════════════╗
-║  "Code is like humor. When you have to explain it,        ║
-║   it's bad."                          — Cory House  😄    ║
-╚═══════════════════════════════════════════════════════════╝
-```
-
-⭐️ **Found something cool? Drop a star — it keeps me going!** ⭐️
+| 🏷️ | Project | Description | Link |
+|:---:|:--------|:------------|:----:|
+| 📚 | **AI-Powered Study Buddy** | AI tutor that helps you study smarter — not harder | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/AI-Powered-Study-Buddy) |
+| 📝 | **Lecture Notes Generator** | Auto-generate clean notes from any lecture using AI | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/Lecture_notes_generator) |
+| ⚡ | **Hackathon Website** | Event platform with registration, schedules & teams | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/Hackthon_website) |
+| 🖼️ | **AI Image Generator** | Generate stunning images from text prompts using AI | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/Ai_image_generator_tool) |
+| 🩺 | **AI Doctor** | Smart health assistant that analyzes your symptoms | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/AI_DOCTOR) |
+| 📄 | **AI Resume Builder** | Build ATS-ready resumes with AI in minutes | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/AI-resume-builder) |
+| 🤖 | **Musebot by VoxNova** | AI chatbot fused with music discovery | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/aibot-musebot-byvoxnova) |
+| 🧘 | **Yoga & Asana** | Wellness platform for yoga postures & health benefits | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/yoga_and_asan_website-) |
+| 💼 | **Portfolio v2** | My latest portfolio — redesigned & reimagined | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/prem_new_portfolio) |
+| 🌐 | **Portfolio v1** | Original portfolio where my journey began | [![Repo](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/prem2708/Portfolio) |
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=prem2708&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prem2708&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=prem2708&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="65%"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prem2708&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=prem2708&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=6" />
+
+</div>
+
+---
+
+## 💬 Random Dev Quote
+
+<div align="center">
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+</div>
+
+---
+
+<div align="center">
+
+### 🤝 Let's build something amazing together!
+
+[![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-a78bfa?style=for-the-badge)](https://portfoliobyprem.netlify.app/)
+[![Email](https://img.shields.io/badge/📧_Send_Email-f43f5e?style=for-the-badge)](mailto:preminnovator2708@gmail.com)
+[![Linktree](https://img.shields.io/badge/🔗_All_Links-1de9b6?style=for-the-badge)](https://linktr.ee/premkumar2708)
+
+<br/>
+
+*"Code is like humor. When you have to explain it, it's bad."* — **Cory House**
+
+<br/>
+
+⭐️ **If you like my work, drop a star on any repo — it truly means a lot!** ⭐️
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+
+</div>
