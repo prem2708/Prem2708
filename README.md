@@ -1,118 +1,131 @@
-<svg width="860" height="190" viewBox="0 0 860 190" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(16px); }
-        to   { opacity: 1; transform: translateY(0); }
-      }
-      @keyframes gradient {
-        0%,100% { fill: #6366f1; }
-        33%      { fill: #8b5cf6; }
-        66%      { fill: #06b6d4; }
-      }
-      @keyframes blink {
-        0%,100% { opacity: 1; }
-        50%      { opacity: 0; }
-      }
-      @keyframes rise {
-        0%   { transform: translateY(0px);   opacity: 0.7; }
-        100% { transform: translateY(-160px); opacity: 0; }
-      }
-      @keyframes scanline {
-        0%   { transform: translateY(-2px); opacity: 0; }
-        5%   { opacity: 0.2; }
-        95%  { opacity: 0.2; }
-        100% { transform: translateY(192px); opacity: 0; }
-      }
-      @keyframes expand {
-        from { stroke-dashoffset: 700; }
-        to   { stroke-dashoffset: 0; }
-      }
+<!-- Header Animation -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Prem+Kumar;Full+Stack+Developer;AI+Engineer;Open+Source+Enthusiast" alt="Typing Animation"/>
+</div>
 
-      .bg   { fill: #0d1117; }
-      .name {
-        font: 900 56px/1 'Segoe UI', Arial, sans-serif;
-        animation: fadeIn 0.8s ease both, gradient 4s ease-in-out 0.8s infinite;
-        fill: #6366f1;
-      }
-      .sub {
-        font: 500 15px/1 'Courier New', monospace;
-        fill: #8b949e;
-        letter-spacing: 3px;
-        animation: fadeIn 0.8s 0.4s ease both;
-        opacity: 0;
-        animation-fill-mode: forwards;
-      }
-      .cursor {
-        fill: #6366f1;
-        animation: blink 1s step-end 1.2s infinite;
-        opacity: 0;
-        animation-fill-mode: forwards;
-      }
-      .line {
-        stroke: #6366f1;
-        stroke-width: 1.5;
-        fill: none;
-        stroke-dasharray: 700;
-        stroke-dashoffset: 700;
-        animation: expand 1s 0.3s ease forwards;
-        opacity: 0.4;
-      }
-      .p1 { fill: #6366f1; animation: rise 4s 0.0s ease-in infinite; opacity: 0; }
-      .p2 { fill: #8b5cf6; animation: rise 5s 0.8s ease-in infinite; opacity: 0; }
-      .p3 { fill: #06b6d4; animation: rise 4.5s 1.6s ease-in infinite; opacity: 0; }
-      .p4 { fill: #6366f1; animation: rise 3.5s 2.4s ease-in infinite; opacity: 0; }
-      .p5 { fill: #8b5cf6; animation: rise 5.5s 0.4s ease-in infinite; opacity: 0; }
-      .p6 { fill: #06b6d4; animation: rise 4s 3.0s ease-in infinite; opacity: 0; }
-      .scan {
-        fill: #6366f1;
-        animation: scanline 3s 1s linear infinite;
-        opacity: 0;
-      }
-      .corner { stroke: #6366f1; stroke-width: 1.5; fill: none; opacity: 0.35; }
-      .grid   { stroke: #6366f1; stroke-width: 0.3; opacity: 0.06; }
-    </style>
-  </defs>
+---
 
-  <!-- Background -->
-  <rect width="860" height="190" class="bg" rx="10"/>
+## 🎯 About Me
 
-  <!-- Grid -->
-  <line x1="0"   y1="47"  x2="860" y2="47"  class="grid"/>
-  <line x1="0"   y1="95"  x2="860" y2="95"  class="grid"/>
-  <line x1="0"   y1="143" x2="860" y2="143" class="grid"/>
-  <line x1="143" y1="0"   x2="143" y2="190" class="grid"/>
-  <line x1="286" y1="0"   x2="286" y2="190" class="grid"/>
-  <line x1="430" y1="0"   x2="430" y2="190" class="grid"/>
-  <line x1="573" y1="0"   x2="573" y2="190" class="grid"/>
-  <line x1="716" y1="0"   x2="716" y2="190" class="grid"/>
+<img align="right" src="https://img.shields.io/badge/-Passionate%20Coder-6366F1?style=flat-square&logo=github&logoColor=white" />
 
-  <!-- Scan line -->
-  <rect x="0" y="0" width="860" height="2" class="scan"/>
+I'm a **Full Stack Developer** and **AI Engineer** passionate about building scalable applications and contributing to open-source projects. I love solving complex problems and creating intuitive user experiences.
 
-  <!-- Particles -->
-  <circle cx="90"  cy="170" r="2.5" class="p1"/>
-  <circle cx="220" cy="175" r="2"   class="p2"/>
-  <circle cx="380" cy="170" r="3"   class="p3"/>
-  <circle cx="530" cy="175" r="2"   class="p4"/>
-  <circle cx="670" cy="170" r="2.5" class="p5"/>
-  <circle cx="790" cy="172" r="2"   class="p6"/>
+- 🚀 Expertise in **Web Development**, **AI/ML**, and **Cloud Technologies**
+- 💡 Always learning and exploring new technologies
+- 🤝 Open to collaboration on exciting projects
+- 📍 Based in India | Available for Remote Opportunities
 
-  <!-- Corner brackets -->
-  <polyline points="16,16 16,38 38,38"   class="corner"/>
-  <polyline points="844,16 844,38 822,38" class="corner"/>
-  <polyline points="16,174 16,152 38,152"   class="corner"/>
-  <polyline points="844,174 844,152 822,152" class="corner"/>
+---
 
-  <!-- Name -->
-  <text x="430" y="96" text-anchor="middle" class="name">Prem Kumar</text>
+## 💻 Tech Stack
 
-  <!-- Cursor blink after name -->
-  <rect x="658" y="68" width="3" height="40" class="cursor"/>
+<div align="center">
 
-  <!-- Divider line -->
-  <line x1="130" y1="112" x2="730" y2="112" class="line"/>
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-  <!-- Subtitle -->
-  <text x="430" y="138" text-anchor="middle" class="sub">FULL STACK DEV  ·  AI ENGINEER  ·  OPEN SOURCE</text>
-</svg>
+### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### Backend & Databases
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### AI/ML & Tools
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
+
+---
+
+## 🌟 Featured Projects
+
+<div align="center">
+
+### 📱 [Portfolio](https://github.com/prem2708/Portfolio)
+> A beautiful personal portfolio showcasing my work and expertise
+- Built with **TypeScript, React, Tailwind CSS**
+- [Live Demo](https://portfolio-byprem.netlify.app)
+- Features: Smooth animations, responsive design, project showcase
+
+### 🎨 [UI/UX by AI](https://github.com/prem2708/ui_ux_by_ai)
+> AI-powered UI/UX design generation tool
+- Leveraging **AI/ML** for intelligent design suggestions
+- Innovative approach to modern web design
+
+### 📚 [Placement Portal](https://github.com/prem2708/placement)
+> Full-stack placement management system
+- Features job listings, applications, and profile management
+
+### 🌐 [Priya Web](https://github.com/prem2708/priya_web)
+> Interactive web project with modern design
+- HTML, CSS, JavaScript implementation
+
+### 🎯 [New Portfolio](https://github.com/prem2708/prem_new_portfolio)
+> Latest portfolio iteration with cutting-edge features
+- Showcasing recent projects and achievements
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=prem2708&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=prem2708&layout=compact&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+## 🎓 Learning & Growth
+
+Currently exploring:
+- 🤖 Advanced AI/ML applications
+- 🔗 Web3 & Blockchain technologies
+- ☁️ Cloud architecture & DevOps
+- 📱 Mobile app development
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prem2708)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prem2708)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/prem2708)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@example.com)
+
+</div>
+
+---
+
+## 💝 Support
+
+If you find my projects helpful, consider giving them a ⭐ and sharing with others!
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=prem2708&color=6366F1&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+</div>
+
+<div align="center">
+  
+**Made with ��️ by Prem Kumar**
+
+</div>
