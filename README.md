@@ -143,7 +143,7 @@ const prem = {
 | 📦 | **6+ AI Projects Shipped** — End-to-end deployed AI applications |
 | ⭐ | **Community Builder** — Mentoring peers & contributing to developer communities |
 
-> 💡 *Update this section with your actual certifications (e.g. AWS, Google Cloud, Coursera, Udemy, etc.)*
+
 
 ---
 
