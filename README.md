@@ -1,192 +1,263 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=200&section=header&text=Hi,%20I'm%20Prem%20Kumar!%20👋&fontSize=45&animation=fadeIn&fontColor=fff&fontAlignY=50&desc=Full%20Stack%20Developer%20•%20AI%20Engineer%20•%20Open%20Source%20Contributor&descAlignY=70&descColor=67e8f9&descSize=18" width="100%"/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=2&height=50&text=🚀%20Building%20intelligent%20solutions%2C%20one%20commit%20at%20a%20time&fontSize=18&fontColor=ffffff&animation=twinkling" width="100%"/>
-
-<br/><br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f172a)](https://portfoliobyprem.netlify.app/)
-[![Gmail](https://img.shields.io/badge/Gmail-06b6d4?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f172a)](mailto:preminnovator2708@gmail.com)
-[![Linktree](https://img.shields.io/badge/Linktree-22d3ee?style=for-the-badge&logo=linktree&logoColor=white&labelColor=0f172a)](https://linktr.ee/premkumar2708)
-[![GitHub](https://img.shields.io/badge/GitHub-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a)](https://github.com/prem2708)
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=24&height=280&section=header&text=PREM%20KUMAR&fontSize=85&animation=fadeIn&fontColor=00ffff&fontAlignY=45&stroke=ff00ff&strokeWidth=2&desc=Full%20Stack%20Dev%20%7C%20AI%20Engineer%20%7C%20Open%20Source%20Builder&descAlignY=68&descColor=ff00ff&descSize=20" width="100%"/>
 
 <br/>
 
-![Views](https://komarev.com/ghpvc/?username=prem2708&label=Profile+Views&color=0ea5e9&style=flat-square)
-&nbsp;
-![Followers](https://img.shields.io/github/followers/prem2708?label=Followers&color=06b6d4&style=flat-square)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=00FFFF&center=true&vCenter=true&repeat=true&width=680&height=60&lines=🚀+Full+Stack+Developer;🤖+AI+%26+LLM+Engineer;☁️+Cloud+%26+DevOps+Explorer;🌐+Open+Source+Contributor;💡+Building+Products+That+Matter" alt="Typing SVG" />
+
+<br/><br/>
+
+[![Portfolio](https://img.shields.io/badge/⚡_PORTFOLIO-00ffff?style=for-the-badge&logoColor=black&labelColor=0d0d0d)](https://portfoliobyprem.netlify.app/)
+[![Gmail](https://img.shields.io/badge/📡_CONTACT-ff00ff?style=for-the-badge&logoColor=white&labelColor=0d0d0d)](mailto:preminnovator2708@gmail.com)
+[![Linktree](https://img.shields.io/badge/🔗_LINKS-7b2fff?style=for-the-badge&logoColor=white&labelColor=0d0d0d)](https://linktr.ee/premkumar2708)
+[![GitHub](https://img.shields.io/badge/🐙_GITHUB-00ffff?style=for-the-badge&logoColor=white&labelColor=0d0d0d)](https://github.com/prem2708)
+
+<br/>
+
+![Views](https://komarev.com/ghpvc/?username=prem2708&label=PROFILE+VIEWS&color=00ffff&style=flat-square)
+&nbsp;&nbsp;
+![Followers](https://img.shields.io/github/followers/prem2708?label=FOLLOWERS&color=ff00ff&style=flat-square)
 
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-## 👨‍💻 About Me
+## ◈ SYSTEM PROFILE
 
 ```javascript
-const prem = {
-  name        : "Prem Kumar",
-  role        : "Full Stack Developer & AI Engineer",
-  location    : "India 🇮🇳",
-  focus       : ["AI Applications", "Web Development", "Cloud & DevOps", "Open Source"],
-  email       : "preminnovator2708@gmail.com",
-  portfolio   : "portfoliobyprem.netlify.app",
-  openTo      : "Collaborations, Freelance & Full-time Opportunities 🤝",
-  currentGoal : "Bridging the gap between AI and real-world products",
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+//   PROFILE SCAN COMPLETE  ██████████  100%
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+const developer = {
+  identity  : "Prem Kumar",
+  class     : "Full Stack Developer & AI Engineer",
+  origin    : "India 🇮🇳",
+  systems   : ["AI Apps", "Web Dev", "Cloud", "Open Source"],
+  uptime    : "24/7 — always building something",
+  protocol  : "Collaborations & Freelance 🤝",
+  directive : "Bridge the gap between AI research & real-world products",
 };
 ```
 
-- 🔭 Currently building **Full Stack & AI-powered** production applications
-- 🌱 Deepening expertise in **Cloud Architecture, DevOps & LLM Engineering**
-- 🤝 Open to **collaborations, freelance projects & impactful roles**
-- 💬 Ask me about **React, Node.js, Python, AI APIs & System Design**
-- 📌 Passionate about writing clean, scalable, and maintainable code
+- ⚡ Shipping **Full Stack & AI-powered** production applications
+- 🧠 Specializing in **LLM Engineering, RAG Systems & Vector Databases**
+- ☁️ Exploring **Cloud Architecture, CI/CD & DevOps pipelines**
+- 🤝 Open to **collaborations, freelance & high-impact opportunities**
+- 🎯 Mission: Turn cutting-edge **AI into products people love**
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-## 🛠️ Tech Stack
+## ◈ TECH MATRIX
 
-**Languages**
+**► Core Languages**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+<p>
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp&theme=dark" />
+</p>
 
-**Frontend**
+**► Frontend Systems**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css&theme=dark" />
+</p>
 
-**Backend & Databases**
+**► Backend & Databases**
 
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,django,fastapi,mongodb,mysql,postgresql,firebase&theme=dark" />
+</p>
 
-**AI & ML**
+**► AI / ML Stack**
 
-![LangChain](https://img.shields.io/badge/LangChain-0ea5e9?style=for-the-badge&logo=chainlink&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Pinecone](https://img.shields.io/badge/Pinecone-06b6d4?style=for-the-badge&logoColor=white)
+<p>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" />
+&nbsp;
+<img src="https://img.shields.io/badge/LangChain-00ffff?style=flat-square&logo=chainlink&logoColor=black"/>
+&nbsp;
+<img src="https://img.shields.io/badge/OpenAI-ff00ff?style=flat-square&logo=openai&logoColor=white"/>
+&nbsp;
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Pinecone-00ffff?style=flat-square"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Weaviate-7b2fff?style=flat-square"/>
+</p>
 
-**DevOps & Tools**
+**► DevOps & Tools**
 
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-131415?style=for-the-badge&logo=railway&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<p>
+<img src="https://skillicons.dev/icons?i=docker,git,vercel,netlify,linux,vscode,postman&theme=dark" />
+</p>
 
----
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-## 🚀 Featured Projects
+## ◈ SKILL PROFICIENCY
 
-### 🤖 AI-Powered Applications
+```
+ JavaScript / TypeScript  ████████████████████░  92%  ██ EXPERT
+ Python                   ███████████████████░░  88%  ██ ADVANCED
+ React / Next.js          ███████████████████░░  87%  ██ ADVANCED
+ Node.js / Express        ██████████████████░░░  84%  ██ ADVANCED
+ AI / LLM Engineering     █████████████████░░░░  78%  ██ PROFICIENT
+ Databases (SQL/NoSQL)    ████████████████░░░░░  74%  ██ PROFICIENT
+ Cloud / DevOps           ██████████████░░░░░░░  65%  ██ LEARNING
+ System Design            █████████████░░░░░░░░  60%  ██ LEARNING
+```
 
-| Project | Description | Tech |
-|:--------|:------------|:-----|
-| 📚 [**AI Study Buddy**](https://github.com/prem2708/AI-Powered-Study-Buddy) | Personal AI tutor — study smarter with adaptive learning | AI, React, Node.js |
-| 📝 [**Lecture Notes Generator**](https://github.com/prem2708/Lecture_notes_generator) | Auto-generate structured notes from any lecture content | Python, NLP, FastAPI |
-| 🖼️ [**AI Image Generator**](https://github.com/prem2708/Ai_image_generator_tool) | Create high-quality images from natural language prompts | OpenAI API, React |
-| 🩺 [**AI Doctor**](https://github.com/prem2708/AI_DOCTOR) | Intelligent health assistant for symptom analysis & guidance | AI, Python, REST API |
-| 📄 [**AI Resume Builder**](https://github.com/prem2708/AI-resume-builder) | ATS-optimized resume generator tailored per job description | AI, Next.js, PDF |
-| 🤖 [**Musebot by VoxNova**](https://github.com/prem2708/aibot-musebot-byvoxnova) | Conversational AI chatbot with integrated music discovery | NLP, API, React |
+## ◈ MISSION LOG — PROJECTS
 
-### 🌐 Web Applications & Design
+### 🤖 AI-Powered Operations
 
-| Project | Description | Tech |
-|:--------|:------------|:-----|
-| ⚡ [**Hackathon Website**](https://github.com/prem2708/Hackthon_website) | Full event platform — registration, schedule & team management | React, Node.js |
-| 🧘 [**Yoga & Asana**](https://github.com/prem2708/yoga_and_asan_website-) | Wellness platform with guided yoga & posture tracking | HTML, CSS, JS |
-| 💼 [**Portfolio v2**](https://github.com/prem2708/prem_new_portfolio) | Latest personal portfolio — redesigned from scratch | React, Tailwind |
-| 🌐 [**Portfolio v1**](https://github.com/prem2708/Portfolio) | Original portfolio — the foundation of everything | HTML, CSS, JS |
+| SYS | PROJECT | MISSION BRIEF | STACK |
+|:---:|:--------|:--------------|:------|
+| 🟢 | [**AI Study Buddy**](https://github.com/prem2708/AI-Powered-Study-Buddy) | Adaptive AI tutor — study smarter, not harder | AI · React · Node.js |
+| 🟢 | [**Lecture Notes Generator**](https://github.com/prem2708/Lecture_notes_generator) | Auto-generate structured notes from any lecture | Python · NLP · FastAPI |
+| 🟢 | [**AI Image Generator**](https://github.com/prem2708/Ai_image_generator_tool) | Text-to-image generation at scale | OpenAI · React |
+| 🟢 | [**AI Doctor**](https://github.com/prem2708/AI_DOCTOR) | Smart symptom analysis & health guidance | AI · Python · REST |
+| 🟢 | [**AI Resume Builder**](https://github.com/prem2708/AI-resume-builder) | ATS-optimized resumes powered by AI | AI · Next.js · PDF |
+| 🟢 | [**Musebot by VoxNova**](https://github.com/prem2708/aibot-musebot-byvoxnova) | Conversational AI + music discovery bot | NLP · API · React |
 
----
+### 🌐 Web Systems
 
-## 📈 GitHub Stats
+| SYS | PROJECT | MISSION BRIEF | STACK |
+|:---:|:--------|:--------------|:------|
+| 🟢 | [**Hackathon Website**](https://github.com/prem2708/Hackthon_website) | Full event platform — registration, schedule & teams | React · Node.js |
+| 🟢 | [**Yoga & Asana**](https://github.com/prem2708/yoga_and_asan_website-) | Wellness platform with posture guidance | HTML · CSS · JS |
+| 🟢 | [**Portfolio v2**](https://github.com/prem2708/prem_new_portfolio) | Personal portfolio — rebuilt from scratch | React · Tailwind |
+| 🟢 | [**Portfolio v1**](https://github.com/prem2708/Portfolio) | The original — where it all started | HTML · CSS · JS |
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## ◈ PERFORMANCE METRICS
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=prem2708&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&icon_color=06b6d4&text_color=e2e8f0&ring_color=0ea5e9" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=prem2708&show_icons=true&theme=radical&hide_border=true&bg_color=0d0d0d&title_color=00ffff&icon_color=ff00ff&text_color=ffffff&ring_color=00ffff" height="180"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prem2708&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f172a&title_color=38bdf8&text_color=e2e8f0" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prem2708&layout=compact&theme=radical&hide_border=true&bg_color=0d0d0d&title_color=00ffff&text_color=ffffff" height="180"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=prem2708&theme=tokyonight&hide_border=true&background=0f172a&ring=0ea5e9&fire=38bdf8&currStreakLabel=06b6d4&sideLabels=e2e8f0&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=94a3b8" width="60%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=prem2708&theme=radical&hide_border=true&background=0d0d0d&ring=00ffff&fire=ff00ff&currStreakLabel=00ffff&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=888888&stroke=00ffff" width="65%"/>
 
 </div>
 
----
-
-## 🏆 Achievements & Certifications
-
-| 🏅 | Achievement |
-|:--:|:------------|
-| 🥇 | **Hackathon Winner** — Built an AI-powered solution under 24 hours |
-| 🎓 | **Full Stack Web Development** — Certified in modern MERN stack development |
-| 🤖 | **AI & Machine Learning** — Completed hands-on AI/ML training & projects |
-| 🌐 | **Open Source Contributor** — Active contributor across multiple repositories |
-| 📦 | **6+ AI Projects Shipped** — End-to-end deployed AI applications |
-| ⭐ | **Community Builder** — Mentoring peers & contributing to developer communities |
-
-
-
----
-
-## 📚 Currently Learning
-
-```yaml
-Cloud & DevOps:
-  - AWS / Google Cloud Platform
-  - CI/CD Pipelines & GitHub Actions
-  - Kubernetes & Container Orchestration
-
-AI & LLM Engineering:
-  - LangChain & LlamaIndex
-  - Vector Databases (Pinecone, Weaviate)
-  - Retrieval-Augmented Generation (RAG)
-  - Fine-tuning Open Source LLMs
-
-System Design:
-  - Scalable Architecture Patterns
-  - Microservices & API Design
-  - Database Optimization Strategies
-```
-
----
-
-## 🤝 Let's Connect
+## ◈ ACTIVITY GRID
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Visit%20Portfolio-0ea5e9?style=for-the-badge&labelColor=0f172a)](https://portfoliobyprem.netlify.app/)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prem2708&theme=react-dark&bg_color=0d0d0d&color=00ffff&line=ff00ff&point=ffffff&area=true&area_color=7b2fff&hide_border=true&custom_title=Contribution Activity — Prem Kumar" width="95%"/>
+
+</div>
+
+## ◈ TROPHIES & RANKS
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=prem2708&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" width="95%"/>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## ◈ CONTRIBUTION SNAKE 🐍
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prem2708/prem2708/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prem2708/prem2708/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/prem2708/prem2708/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+> ⚙️ **To activate the snake**, create `.github/workflows/snake.yml` in your profile repo (`prem2708/prem2708`):
+
+```yaml
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: prem2708
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+## ◈ ACHIEVEMENTS UNLOCKED 🏆
+
+| RANK | ACHIEVEMENT | STATUS |
+|:----:|:------------|:------:|
+| 🥇 | **Hackathon Champion** — AI solution shipped in under 24 hours | `✅ UNLOCKED` |
+| 🎓 | **Full Stack Certified** — Modern MERN stack development | `✅ UNLOCKED` |
+| 🤖 | **AI/ML Practitioner** — Hands-on training & real-world projects | `✅ UNLOCKED` |
+| 📦 | **6+ AI Apps Shipped** — End-to-end deployed production apps | `✅ UNLOCKED` |
+| 🌐 | **Open Source Contributor** — Active across multiple repositories | `✅ UNLOCKED` |
+| ⭐ | **Community Builder** — Mentoring peers & growing dev communities | `✅ UNLOCKED` |
+| ☁️ | **Cloud Certified** — AWS / GCP Certification | `🔒 IN PROGRESS` |
+
+> 🔐 *Replace locked entries with your real certifications (AWS, GCP, Coursera, etc.)*
+
+## ◈ CURRENTLY LOADING...
+
+```yaml
+CLOUD & DEVOPS:
+  ► AWS / Google Cloud Platform        [████████░░]  80%
+  ► CI/CD Pipelines & GitHub Actions   [███████░░░]  70%
+  ► Kubernetes & Orchestration         [█████░░░░░]  50%
+
+AI & LLM ENGINEERING:
+  ► LangChain & LlamaIndex             [████████░░]  80%
+  ► Vector DBs — Pinecone / Weaviate   [███████░░░]  70%
+  ► RAG System Architecture            [███████░░░]  68%
+  ► Fine-tuning Open Source LLMs       [█████░░░░░]  52%
+
+SYSTEM DESIGN:
+  ► Scalable Architecture Patterns     [██████░░░░]  62%
+  ► Microservices & API Design         [███████░░░]  70%
+  ► Database Optimization Strategies   [███████░░░]  72%
+```
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## ◈ ESTABLISH CONNECTION
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2500&pause=600&color=00FFFF&center=true&vCenter=true&width=520&lines=Open+to+collaborations+🤝;Available+for+freelance+💼;Let's+build+something+legendary+🚀;Drop+a+⭐+if+you+like+my+work!" />
+
+<br/><br/>
+
+[![Portfolio](https://img.shields.io/badge/⚡_PORTFOLIO-00ffff?style=for-the-badge&labelColor=0d0d0d)](https://portfoliobyprem.netlify.app/)
 &nbsp;
-[![Email](https://img.shields.io/badge/📧%20Email%20Me-06b6d4?style=for-the-badge&labelColor=0f172a)](mailto:preminnovator2708@gmail.com)
+[![Email](https://img.shields.io/badge/📡_EMAIL_ME-ff00ff?style=for-the-badge&labelColor=0d0d0d)](mailto:preminnovator2708@gmail.com)
 &nbsp;
-[![Linktree](https://img.shields.io/badge/🔗%20All%20Links-38bdf8?style=for-the-badge&labelColor=0f172a)](https://linktr.ee/premkumar2708)
+[![Linktree](https://img.shields.io/badge/🔗_ALL_LINKS-7b2fff?style=for-the-badge&labelColor=0d0d0d)](https://linktr.ee/premkumar2708)
 
 <br/>
 
-> *"First, solve the problem. Then, write the code."* — **John Johnson**
+> *"Any sufficiently advanced technology is indistinguishable from magic."* — **Arthur C. Clarke**
 
 <br/>
 
-⭐ **If you find my work useful, a star goes a long way — thank you!** ⭐
+⚡ **Found something useful? Drop a ⭐ — it powers the next build!** ⚡
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=24&height=120&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
